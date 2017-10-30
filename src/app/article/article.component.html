@@ -1,0 +1,30 @@
+<div class="article-box w">
+  <div class="fl s-box bgc1">
+    <div class="font50">{{article.votes}}</div>
+    <div class="bold">POINT</div>
+  </div>
+  <div class="fl b-box">
+    <div>
+      <a href="{{article.link}}" class="font">{{article.title}}</a>
+      <div class="domain">{{article.domain()}}</div>
+    </div>
+    <ul class="vote-ul clearfix">
+      <li class="fl">
+        <a href (click)="upVote()">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-up-vote"></use>
+          </svg>
+          upvote
+        </a>
+      </li>
+      <li class="fl">
+        <a href (click)="downVote()">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-down-vote"></use>
+          </svg>
+          dovnvote
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

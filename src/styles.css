@@ -1,0 +1,23 @@
+@import url('base.css');
+header {
+  height: 80px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+header .logo {
+  float: left;
+  width: 150px;
+  line-height: 80px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding-left: 20px;
+}
+header .logo img {
+  width: 35px;
+  vertical-align: middle;
+  margin-right: 1.5em;
+}
+header h1 {
+  padding-left: 20px;
+  float: left;
+}
